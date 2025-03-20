@@ -10,12 +10,14 @@
     "preview": "vite preview",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "ci:test": "start-server-and-test preview http://localhost:5173 cy:run"
+    "ci:test": "start-server-and-test preview http://localhost:5173 cy:run",
+    "build:ci": "cross-env CYPRESS_COVERAGE=true vite build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
     "axios": "^1.8.3",
     "bootstrap": "^5.3.3",
+    "cross-env": "^7.0.3",
     "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
