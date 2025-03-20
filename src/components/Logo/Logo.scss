@@ -1,0 +1,116 @@
+.layer-1-icon {
+    height: 13.644rem;
+    width: 21.763rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.layout {
+    width: 40.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0rem var(--padding-2xl) 0rem var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.test-your-knowledge {
+    margin: 0;
+    width: 40.25rem;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: -0.01em;
+    line-height: 140%;
+    font-weight: 700;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.challenge-yourself-with {
+    position: relative;
+    font-size: var(--headingm-size);
+    letter-spacing: -0.01em;
+    line-height: 140%;
+    color: var(--white-60-opacity);
+}
+
+.challenge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xl);
+    padding-bottom: 4rem;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0rem var(--padding-90xl);
+}
+
+
+.main {
+    height: 32.331rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0rem 0rem var(--padding-97xl-9);
+    box-sizing: border-box;
+    gap: var(--gap41xl-1);
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--heading-l-size);
+    color: var(--white);
+    font-family: var(--heading-l);
+}
+
+@media screen and (max-width: 750px) {
+  .test-your-knowledge {
+    font-size: var(--font-size-18xl);
+    line-height: 52px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .button-wrapper {
+    padding-left: var(--padding-35xl);
+    padding-right: var(--padding-35xl);
+    box-sizing: border-box;
+  }
+
+  .main {
+    gap: var(--gap-11xl);
+    padding-bottom: var(--padding-57xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .test-your-knowledge {
+    font-size: var(--font-size-9xl);
+    line-height: 39px;
+  }
+
+  .challenge-yourself-with {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+
+  .button-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+    padding-top: 5rem;
+  }
+
+  .main {
+    gap: var(--gap-mini);
+  }
+}

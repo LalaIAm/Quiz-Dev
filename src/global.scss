@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+    body {
+      margin: 0; line-height: normal;
+    }
+:root {
+
+/*  */
+
+/* Fonts */
+--heading-l: Nunito;
+
+/* font sizes */
+--button-size: 1.125rem;
+--font-size-lgi: 1.188rem;
+--headingm-size: 1.5rem;
+--font-size-9xl: 1.75rem;
+--font-size-18xl: 2.313rem;
+--heading-l-size: 2.875rem;
+
+/* Gaps */
+--gap-mini: 0.937rem;
+--gap-5xl: 1.5rem;
+--gap-11xl: 1.875rem;
+--gap-41xl-1: 3.756rem;
+
+/* Paddings */
+--padding-base: 1rem;
+--padding-xl: 1.25rem;
+--padding-2xl: 1.312rem;
+--padding-35xl: 3.375rem;
+--padding-57xl: 4.75rem;
+--padding-90xl: 6.812rem;
+--padding-97xl-9: 7.306rem;
+
+/* Border radiuses */
+--br-980xl: 999px;
+
+/* Figma Variables */
+
+/* Color Variables */
+--dark-blue: #13163c;
+--white: #fff;
+--white-60-opacity: rgba(255, 255, 255, 0.6);
+
+}

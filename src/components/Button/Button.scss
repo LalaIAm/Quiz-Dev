@@ -1,0 +1,33 @@
+.button-text {
+    position: relative;
+    font-size: var(--button-size);
+    letter-spacing: -0.01em;
+    line-height: 140%;
+    font-family: var(--heading-l);
+    color: var(--white);
+    text-align: center;
+}
+
+.button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: var(--padding-base) 0rem;
+    background-color: var(--gradient);
+    width: 26.625rem;
+    border-radius: var(--br-980xl);
+    background: linear-gradient(115.2deg, #8040ff, #08bafe);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    transition: all .3s ease;
+
+    &:hover {
+        background: var(--white-60-opacity);
+        transition: all .2s ease-in-out;
+    }
+}
