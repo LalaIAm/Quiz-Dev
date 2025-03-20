@@ -14,6 +14,12 @@ export default defineConfig({
       // implement node event listeners here
   
       on('file:preprocessor', vitePreprocessor());
+      on('task', {
+        log(message) {
+          console.log(message)
+          return null;
+        }
+      })
     },
   },
 });
